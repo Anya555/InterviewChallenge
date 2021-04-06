@@ -1,0 +1,23 @@
+.card {
+  margin-top: 200px;
+  height: 100px;
+}
+
+form {
+  margin: 0 auto;
+  height: 100px;
+  line-height: 100px;
+}
+
+button {
+  height: 30px;
+  color: white;
+  background-color: red;
+  border-color: red;
+  height: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}

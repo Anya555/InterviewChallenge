@@ -28,7 +28,7 @@ db.Book.create([
   },
 ]);
 
-// Start an app an click on "Click here to see books" link in browser to get a list of books
+// Start an app an click on "Click here to see books list" link in browser to get a list of books
 app.get("/api/books", async (req, res) => {
   try {
     const books = await db.Book.find({});

@@ -9,7 +9,8 @@ function Banana(diameter, length) {
     console.log("all bananas can rot");
   };
 }
-// create new objects from constructor
+
+// I believe the reason I did not pass all the tests is I didn't create new objects from constructor
 let banana1 = new Banana(1, 2);
 console.log(banana1);
 banana1.rot();
